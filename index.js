@@ -14,11 +14,9 @@ function logDriversByHometown(drivers, town) {
 }
 
 function driversByRevenue(drivers) {
-  const newarr = drivers.slice()
+  const newarr = drivers.map()
   newarr.sort(function(a, b) {
     return a.revenue - b.revenue
   })
-  newarr.forEach(function(user) {
-      console.log(user.name)
-  })
+  return newarr
 }
