@@ -20,6 +20,20 @@ function driversByRevenue(drivers) {
   })
 }
 
+function driversByName() {
+  const newarr = drivers.slice()
+  return newarr.sort(function(a, b) {
+    return a.name.localeCompare(b.name)
+  })
+}
+
+
+
+function totalRevenue() {
+  
+}
+
+
 function averageRevenue(drivers) {
 
 }
