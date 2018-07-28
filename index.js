@@ -14,9 +14,5 @@ function logDriversByHometown(drivers, town) {
 }
 
 function driversByRevenue(drivers) {
-  drivers.forEach(function(user) {
-    if (user.hometown === town) {
-      console.log(user.name)
-    }
-  })
+  drivers.sort
 }
