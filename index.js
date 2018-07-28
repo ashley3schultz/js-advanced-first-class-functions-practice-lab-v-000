@@ -29,9 +29,14 @@ function driversByName(drivers) {
 
 
 
-function totalRevenue() {
-  
+function totalRevenue(drivers) {
+  const revenue = 0
+  drivers.forEach(function(user) {
+    revenue += user.revenue
+  })
+  return revenue
 }
+
 
 
 function averageRevenue(drivers) {
