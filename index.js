@@ -32,7 +32,7 @@ function driversByName(drivers) {
 function totalRevenue(drivers) {
   const totRev = 0
   drivers.forEach(function(user) {
-    revenue += user.revenue
+    totRev += user.revenue
   })
   return totRev
 }
